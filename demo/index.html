@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Linear Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="demo-container" class="center space-above borders shadow">
+    <canvas id="linear-canvas" height="400" width="700">
+
+    </canvas>
+  </div>
+
+  <script src="../src/linear.js"></script>
+  <script>
+    var Linear = window.Linear;
+
+    (function () {
+      Linear('linear-canvas');
+    }());
+  </script>
+</body>
+</html>
